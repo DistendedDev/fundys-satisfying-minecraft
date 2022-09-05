@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "diztend.fundycopy.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "TntEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

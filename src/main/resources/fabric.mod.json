@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "fundy-copy",
+  "version": "${version}",
+  "name": "Fundy Copy",
+  "description": "copying fundy's mods",
+  "authors": [
+    "diztend",
+    "kuk_sir"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fundy-copy/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "diztend.fundycopy.client.FundyCopyClient"
+    ],
+    "main": [
+      "diztend.fundycopy.FundyCopy"
+    ]
+  },
+  "mixins": [
+    "fundy-copy.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
